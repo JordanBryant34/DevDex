@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  OwnedCardsViewController.swift
 //  DevDexApp
 //
 //  Created by Jordan Bryant on 11/9/20.
@@ -7,13 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class OwnedCardsViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        view.backgroundColor = .blue
     }
-
-
 }
-
