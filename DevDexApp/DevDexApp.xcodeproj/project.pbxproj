@@ -19,6 +19,7 @@
 		7A2E7E0E2559BF240095EC1A /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2E7E072559BF240095EC1A /* UIColorExtension.swift */; };
 		7A2E7E122559BF240095EC1A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2E7E0B2559BF240095EC1A /* UIViewExtension.swift */; };
 		7A2E7E132559BF240095EC1A /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2E7E0C2559BF240095EC1A /* UIImageExtension.swift */; };
+		7A2E7E1D2559C17C0095EC1A /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2E7E1C2559C17C0095EC1A /* CardCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		7A2E7E072559BF240095EC1A /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		7A2E7E0B2559BF240095EC1A /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		7A2E7E0C2559BF240095EC1A /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		7A2E7E1C2559C17C0095EC1A /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 		7A2E7DD72559BC1F0095EC1A /* DevDexApp */ = {
 			isa = PBXGroup;
 			children = (
+				7A2E7E1A2559C1660095EC1A /* Views */,
 				7A2E7DF32559BD8B0095EC1A /* Controllers */,
 				7A2E7DEE2559BD3F0095EC1A /* Model */,
 				7A2E7E052559BF240095EC1A /* Helpers and Extensions */,
@@ -131,6 +134,22 @@
 				7A2E7E0C2559BF240095EC1A /* UIImageExtension.swift */,
 			);
 			path = "Helpers and Extensions";
+			sourceTree = "<group>";
+		};
+		7A2E7E1A2559C1660095EC1A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A2E7E1B2559C16B0095EC1A /* CollectionView Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7A2E7E1B2559C16B0095EC1A /* CollectionView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7A2E7E1C2559C17C0095EC1A /* CardCollectionViewCell.swift */,
+			);
+			path = "CollectionView Cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +224,7 @@
 				7A2E7E012559BDF30095EC1A /* TabBarViewController.swift in Sources */,
 				7A2E7DFE2559BDE60095EC1A /* OwnedCardsViewController.swift in Sources */,
 				7A2E7DF72559BDBE0095EC1A /* CardController.swift in Sources */,
+				7A2E7E1D2559C17C0095EC1A /* CardCollectionViewCell.swift in Sources */,
 				7A2E7DFB2559BDDA0095EC1A /* DrawCardsViewController.swift in Sources */,
 				7A2E7E0E2559BF240095EC1A /* UIColorExtension.swift in Sources */,
 				7A2E7E132559BF240095EC1A /* UIImageExtension.swift in Sources */,
