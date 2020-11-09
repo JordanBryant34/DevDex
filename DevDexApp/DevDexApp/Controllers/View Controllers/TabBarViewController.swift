@@ -25,7 +25,8 @@ class TabBarViewController: UITabBarController {
         drawCardsController.tabBarItem = UITabBarItem(title: "Draw Cards", image: nil, selectedImage: nil)
         ownedCardsController.tabBarItem = UITabBarItem(title: "Your Cards", image: nil, selectedImage: nil)
         
-        tabBar.barTintColor = .devDexBlue()
+        tabBar.barTintColor = .devDexDarkBlue()
+        tabBar.tintColor = .systemIndigo
         tabBar.isTranslucent = false
     }
 

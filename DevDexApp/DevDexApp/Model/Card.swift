@@ -7,22 +7,18 @@
 
 import UIKit
 
-class Card {
+class Card: Codable {
     var name: String
-    var image: UIImage
     var powerLevel: Int
     var description: String
-    var rarity: Int
-    var strengths: String
-    var weaknesses: String
+    var strength: String
+    var weakness: String
 
-    init(name: String, image: UIImage, powerLevel: Int, description: String, rarity: Int, strengths: String, weaknesses: String) {
+    init(name: String, powerLevel: Int, description: String, strength: String, weakness: String) {
         self.name = name
-        self.image = image
         self.powerLevel = powerLevel
         self.description = description
-        self.rarity = rarity
-        self.strengths = strengths
-        self.weaknesses = weaknesses
+        self.strength = strength
+        self.weakness = weakness
     }
 }
